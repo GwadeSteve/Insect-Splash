@@ -50,7 +50,7 @@ def update():
     global state
     if state == "menu":
         if menu.update() == "game":
-            game.reset()
+            game.reset() # reset the game to start a new game
             state = "game"
     elif state == "game":
         if game.update() == "menu":
@@ -59,9 +59,17 @@ def update():
     mainClock.tick(FPS)
 
 
+
+# Loop ------------------------------------------------------------ #
 while True:
+
+    # Buttons ----------------------------------------------------- #
     user_events()
+
+    # Update ------------------------------------------------------ #
     update()
+
+    # FPS
     if DRAW_FPS:
         fps_label = fps_font.render(f"FPS: {int(mainClock.get_fps())}", 1, (255,200,20))
         SCREEN.blit(fps_label, (5,5))
