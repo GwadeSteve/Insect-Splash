@@ -39,11 +39,11 @@ Insect Splash is an interactive computer vision game where players use hand gest
 
 ## Features
 
-- 🖐️ Real-time hand tracking using MediaPipe
-- 🦟 Dynamic insect spawning with increasing difficulty
-- 🐝 Different game elements (mosquitoes to hit, bees to avoid)
-- 🎮 Time-based gameplay with score tracking
-- 🎵 Sound effects and background music
+- Real-time hand tracking using MediaPipe
+- Dynamic insect spawning with increasing difficulty
+- Different game elements (mosquitoes to hit, bees to avoid)
+- Time-based gameplay with score tracking
+- Sound effects and background music
 
 ## Requirements
 
