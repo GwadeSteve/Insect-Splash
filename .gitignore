@@ -1,0 +1,80 @@
+Game\.gitignore
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Debug logs
+*.log
+
+# Other
+*.bak
+*.tmp
+
+# OpenCV Camera images
+*.jpg
+*.png
+*.jpeg
+!Assets/**/*.jpg
+!Assets/**/*.png
+!Assets/**/*.jpeg
+
+# Video files
+*.mp4
+*.avi
+*.mov
+
+# Cache
+.cache/
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
