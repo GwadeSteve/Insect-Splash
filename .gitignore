@@ -46,17 +46,10 @@ desktop.ini
 *.tmp
 
 # OpenCV Camera images
-*.jpg
 *.png
 *.jpeg
-!Assets/**/*.jpg
 !Assets/**/*.png
 !Assets/**/*.jpeg
-
-# Video files
-*.mp4
-*.avi
-*.mov
 
 # Cache
 .cache/
